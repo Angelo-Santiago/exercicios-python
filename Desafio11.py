@@ -1,0 +1,5 @@
+pL=float(input('Coloque o valor da largura da parede que desaja pintar em metros  :'))
+pA=float(input("Coloque o valor da altura em metros para descobrir a área da sua parade:"))
+ap=(pL * pA)
+t=(ap / 2)
+print(f'A sua parade tem a área de {ap}m², e precisará de {t}L para ser pintada')
